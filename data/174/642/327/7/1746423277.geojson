@@ -2,10 +2,12 @@
   "id": 1746423277,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-01",
+    "date:cessation_upper": "2021-10-01",
     "date:inception_lower": "2021-10-01",
     "date:inception_upper": "2021-10-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-01",
+    "edtf:cessation": "2021-10-01T13:18:06-07:00",
+    "edtf:inception": "2021-10-01T22:42:00Z",
     "flysfo:actual_timestamp": 1633144980,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528943,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166769783",
+      "swim:gufi": "KO06546700"
+    },
     "wof:country": "US",
     "wof:created": 1633190892,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746423277,
     "wof:involves": [
-      102527513,
       102528943,
       1159285413,
-      1745882275
+      1745882275,
+      1159289965,
+      102527513
     ],
-    "wof:lastmodified": 1633190892,
+    "wof:lastmodified": 1633191576,
     "wof:name": "UA1152 (LIH-SFO)",
     "wof:parent_id": 1745882275,
     "wof:placetype": "event",

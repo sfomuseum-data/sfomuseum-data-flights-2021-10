@@ -2,10 +2,12 @@
   "id": 1746425487,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-02",
+    "date:cessation_upper": "2021-10-02",
     "date:inception_lower": "2021-10-01",
     "date:inception_upper": "2021-10-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-01",
+    "edtf:cessation": "2021-10-02T02:07:00Z",
+    "edtf:inception": "2021-10-01T07:52:58-07:00",
     "flysfo:actual_timestamp": 1633129200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.512417,
     "geom:longitude": -102.103286,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534019,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N75432",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166766165",
+      "swim:gufi": "KO75053600"
+    },
     "wof:country": "US",
     "wof:created": 1633191452,
     "wof:geomhash": "f65caf98d316e6ee4a43fdc3ee688d07",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746425487,
     "wof:involves": [
-      102534019,
       102527513,
       1159285413,
-      1745882319
+      1745882319,
+      1377564285,
+      102534019
     ],
-    "wof:lastmodified": 1633191452,
+    "wof:lastmodified": 1633191570,
     "wof:name": "UA1976 (SFO-CLE)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "event",
