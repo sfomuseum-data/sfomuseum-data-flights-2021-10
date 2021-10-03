@@ -2,10 +2,12 @@
   "id": 1746426833,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-02",
+    "date:cessation_upper": "2021-10-02",
     "date:inception_lower": "2021-10-02",
     "date:inception_upper": "2021-10-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-02",
+    "edtf:cessation": "2021-10-02T06:15:44-07:00",
+    "edtf:inception": "2021-10-02T18:41:00Z",
     "flysfo:actual_timestamp": 1633215600,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-10-02",
@@ -21,6 +23,7 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614921058692055,
     "lbl:longitude": -122.38233552667353,
@@ -34,6 +37,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N304DU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166838957"
+    },
     "wof:country": "US",
     "wof:created": 1633277106,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -84,7 +96,7 @@
       1159284261,
       1745882213
     ],
-    "wof:lastmodified": 1633277106,
+    "wof:lastmodified": 1633277885,
     "wof:name": "DL2840 (SEA-SFO)",
     "wof:parent_id": 1745882213,
     "wof:placetype": "event",

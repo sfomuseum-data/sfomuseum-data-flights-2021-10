@@ -2,10 +2,12 @@
   "id": 1746427309,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-02",
-    "date:inception_upper": "2021-10-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-02",
+    "date:cessation_lower": "2021-10-02",
+    "date:cessation_upper": "2021-10-02",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-10-02T14:58:38-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1633215600,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-10-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.635332,
     "geom:longitude": -108.8251435,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.610999204937734,
     "lbl:longitude": -122.3855542651668,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531775,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -82,9 +89,10 @@
       102527513,
       102531775,
       1159285591,
-      1745882159
+      1745882159,
+      1159289869
     ],
-    "wof:lastmodified": 1633277231,
+    "wof:lastmodified": 1633277887,
     "wof:name": "WN3439 (HOU-SFO)",
     "wof:parent_id": 1745882159,
     "wof:placetype": "event",

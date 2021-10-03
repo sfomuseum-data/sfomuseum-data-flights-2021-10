@@ -2,10 +2,12 @@
   "id": 1746427445,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-02",
+    "date:cessation_upper": "2021-10-02",
     "date:inception_lower": "2021-10-02",
     "date:inception_upper": "2021-10-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-02",
+    "edtf:cessation": "2021-10-02T13:51:11-07:00",
+    "edtf:inception": "2021-10-02T22:34:00Z",
     "flysfo:actual_timestamp": 1633215600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27509",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166860679",
+      "swim:gufi": "KJ74264700"
+    },
     "wof:country": "US",
     "wof:created": 1633277267,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746427445,
     "wof:involves": [
+      1528104577,
       102527513,
       102533657,
       1159285413,
       1745882311
     ],
-    "wof:lastmodified": 1633277267,
+    "wof:lastmodified": 1633277887,
     "wof:name": "UA1494 (MCO-SFO)",
     "wof:parent_id": 1745882311,
     "wof:placetype": "event",

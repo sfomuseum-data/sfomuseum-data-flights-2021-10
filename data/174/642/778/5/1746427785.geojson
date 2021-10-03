@@ -2,10 +2,12 @@
   "id": 1746427785,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-02",
+    "date:cessation_upper": "2021-10-02",
     "date:inception_lower": "2021-10-02",
     "date:inception_upper": "2021-10-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-02",
+    "edtf:cessation": "2021-10-02T02:54:36-07:00",
+    "edtf:inception": "2021-10-02T11:41:00Z",
     "flysfo:actual_timestamp": 1633215600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529403,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N34455",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166797151",
+      "swim:gufi": "KN23312700"
+    },
     "wof:country": "US",
     "wof:created": 1633277356,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746427785,
     "wof:involves": [
+      1377564285,
       102527513,
       102529403,
       1159285413,
       1745882309
     ],
-    "wof:lastmodified": 1633277356,
+    "wof:lastmodified": 1633277889,
     "wof:name": "UA731 (PHL-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "event",

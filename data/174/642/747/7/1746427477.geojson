@@ -2,10 +2,12 @@
   "id": 1746427477,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-02",
+    "date:cessation_upper": "2021-10-02",
     "date:inception_lower": "2021-10-02",
     "date:inception_upper": "2021-10-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-02",
+    "edtf:cessation": "2021-10-02T00:26:47-07:00",
+    "edtf:inception": "2021-10-02T13:32:00Z",
     "flysfo:actual_timestamp": 1633185120,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533575,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N483UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166808425",
+      "swim:gufi": "KL35416700"
+    },
     "wof:country": "US",
     "wof:created": 1633277275,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -82,9 +96,10 @@
       102527513,
       102533575,
       1159285413,
-      1745882249
+      1745882249,
+      1159292085
     ],
-    "wof:lastmodified": 1633277275,
+    "wof:lastmodified": 1633277887,
     "wof:name": "UA1633 (ONT-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "event",
