@@ -2,10 +2,12 @@
   "id": 1746430855,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-03",
-    "date:inception_upper": "2021-10-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-03",
+    "date:cessation_lower": "2021-10-03",
+    "date:cessation_upper": "2021-10-03",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-10-03T16:23:56-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1633302000,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-10-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526927,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -79,12 +86,13 @@
     ],
     "wof:id": 1746430855,
     "wof:involves": [
-      102527513,
       102526927,
       1159284261,
-      1745882211
+      1745882211,
+      1159289939,
+      102527513
     ],
-    "wof:lastmodified": 1633363540,
+    "wof:lastmodified": 1633364429,
     "wof:name": "DL710 (ATL-SFO)",
     "wof:parent_id": 1745882211,
     "wof:placetype": "event",

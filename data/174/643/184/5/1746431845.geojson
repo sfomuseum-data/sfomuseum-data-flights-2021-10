@@ -2,10 +2,12 @@
   "id": 1746431845,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-03",
+    "date:cessation_upper": "2021-10-03",
     "date:inception_lower": "2021-10-03",
     "date:inception_upper": "2021-10-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-03",
+    "edtf:cessation": "2021-10-03T04:06:12-07:00",
+    "edtf:inception": "2021-10-03T16:13:00Z",
     "flysfo:actual_timestamp": 1633284660,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N410UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166903404",
+      "swim:gufi": "KD43495100"
+    },
     "wof:country": "US",
     "wof:created": 1633363795,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746431845,
     "wof:involves": [
+      1159292085,
       102527513,
       102531189,
       1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1633363795,
+    "wof:lastmodified": 1633364437,
     "wof:name": "UA550 (DEN-SFO)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "event",

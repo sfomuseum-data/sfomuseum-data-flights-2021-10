@@ -2,10 +2,12 @@
   "id": 1746432967,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-03",
+    "date:cessation_upper": "2021-10-03",
     "date:inception_lower": "2021-10-03",
     "date:inception_upper": "2021-10-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-03",
+    "edtf:cessation": "2021-10-03T21:20:01Z",
+    "edtf:inception": "2021-10-03T08:15:00Z",
     "flysfo:actual_timestamp": 1633247580,
     "flysfo:airline": "CX",
     "flysfo:date": "2021-10-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "CX",
+    "icao:aircraft": "B77W",
     "icao:airline": "CPA",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284127,
     "sfomuseum:arrival_id": 102541737,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "BKPU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166950614"
+    },
     "wof:country": "US",
     "wof:created": 1633364087,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -82,9 +94,10 @@
       102541737,
       102527513,
       1159284127,
-      1745882387
+      1745882387,
+      1159289993
     ],
-    "wof:lastmodified": 1633364087,
+    "wof:lastmodified": 1633364430,
     "wof:name": "CX851 (SFO-HKG)",
     "wof:parent_id": 1745882387,
     "wof:placetype": "event",

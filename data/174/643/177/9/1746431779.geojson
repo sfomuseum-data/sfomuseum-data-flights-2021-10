@@ -2,10 +2,12 @@
   "id": 1746431779,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-03",
+    "date:cessation_upper": "2021-10-03",
     "date:inception_lower": "2021-10-03",
     "date:inception_upper": "2021-10-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-03",
+    "edtf:cessation": "2021-10-03T02:29:54-07:00",
+    "edtf:inception": "2021-10-03T15:33:00Z",
     "flysfo:actual_timestamp": 1633302000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37523",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166900363",
+      "swim:gufi": "KL48454100"
+    },
     "wof:country": "US",
     "wof:created": 1633363778,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746431779,
     "wof:involves": [
-      102527513,
-      102533795,
       1159285413,
-      1745882303
+      1745882303,
+      1528104577,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1633363778,
+    "wof:lastmodified": 1633364436,
     "wof:name": "UA501 (LAX-SFO)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",

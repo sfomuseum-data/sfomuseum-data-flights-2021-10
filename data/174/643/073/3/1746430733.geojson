@@ -2,10 +2,12 @@
   "id": 1746430733,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-04",
+    "date:cessation_upper": "2021-10-04",
     "date:inception_lower": "2021-10-03",
     "date:inception_upper": "2021-10-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-03",
+    "edtf:cessation": "2021-10-04T07:35:48Z",
+    "edtf:inception": "2021-10-03T20:25:00Z",
     "flysfo:actual_timestamp": 1633302000,
     "flysfo:airline": "CI",
     "flysfo:date": "2021-10-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "iata:airline": "CI",
+    "icao:aircraft": "B77W",
     "icao:airline": "CAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284153,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102551487,
@@ -34,19 +38,25 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "166991867"
+    },
     "wof:country": "US",
     "wof:created": 1633363508,
     "wof:geomhash": "07bfd75b358269393c92373b424876ce",
     "wof:hierarchy": [],
     "wof:id": 1746430733,
     "wof:involves": [
+      1159289993,
       102527513,
       102551487,
-      1159284153,
-      -1
+      1159284153
     ],
-    "wof:lastmodified": 1633363508,
+    "wof:lastmodified": 1633364439,
     "wof:name": "CI2004 (TPE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

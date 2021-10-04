@@ -2,10 +2,12 @@
   "id": 1746431735,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-03",
+    "date:cessation_upper": "2021-10-03",
     "date:inception_lower": "2021-10-03",
     "date:inception_upper": "2021-10-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-03",
+    "edtf:cessation": "2021-10-03T23:26:00Z",
+    "edtf:inception": "2021-10-03T18:02:00Z",
     "flysfo:actual_timestamp": 1633303740,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37527",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166913292",
+      "swim:gufi": "KB54324100"
+    },
     "wof:country": "US",
     "wof:created": 1633363766,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -82,9 +95,10 @@
       102527513,
       102530741,
       1159285413,
-      1745882303
+      1745882303,
+      1528104577
     ],
-    "wof:lastmodified": 1633363766,
+    "wof:lastmodified": 1633364436,
     "wof:name": "UA279 (BOS-SFO)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",
