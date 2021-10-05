@@ -2,10 +2,12 @@
   "id": 1746436619,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-05",
+    "date:cessation_upper": "2021-10-05",
     "date:inception_lower": "2021-10-04",
     "date:inception_upper": "2021-10-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-04",
+    "edtf:cessation": "2021-10-05T10:23:00Z",
+    "edtf:inception": "2021-10-04T15:23:50-07:00",
     "flysfo:actual_timestamp": 1633410180,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-10-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N903AA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO13673300"
+    },
     "wof:country": "US",
     "wof:created": 1633450339,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746436619,
     "wof:involves": [
+      1159289411,
       102531023,
       102527513,
       1159283849,
       1745882179
     ],
-    "wof:lastmodified": 1633450339,
+    "wof:lastmodified": 1633463151,
     "wof:name": "AA2035 (SFO-MIA)",
     "wof:parent_id": 1745882179,
     "wof:placetype": "custom",

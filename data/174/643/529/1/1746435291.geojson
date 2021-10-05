@@ -2,10 +2,12 @@
   "id": 1746435291,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-04",
-    "date:inception_upper": "2021-10-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-04",
+    "date:cessation_lower": "2021-10-04",
+    "date:cessation_upper": "2021-10-04",
+    "date:inception_lower": "2021-10-05",
+    "date:inception_upper": "2021-10-05",
+    "edtf:cessation": "2021-10-04T16:39:26-07:00",
+    "edtf:inception": "2021-10-05T05:06:00Z",
     "flysfo:actual_timestamp": 1633388400,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-10-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +55,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KU15004300"
+    },
     "wof:country": "US",
     "wof:created": 1633449997,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -81,12 +91,13 @@
     ],
     "wof:id": 1746435291,
     "wof:involves": [
-      102527513,
-      102527363,
       1159284261,
-      1745882207
+      1745882207,
+      1377564285,
+      102527513,
+      102527363
     ],
-    "wof:lastmodified": 1633449997,
+    "wof:lastmodified": 1633463157,
     "wof:name": "DL2104 (SLC-SFO)",
     "wof:parent_id": 1745882207,
     "wof:placetype": "custom",

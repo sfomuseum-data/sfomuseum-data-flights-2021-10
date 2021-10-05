@@ -2,10 +2,12 @@
   "id": 1746438513,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-04",
-    "date:inception_upper": "2021-10-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-04",
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
+    "date:inception_lower": "2021-10-05",
+    "date:inception_upper": "2021-10-05",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-10-04T17:25:45-07:00",
     "flysfo:actual_timestamp": 1633388400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +91,10 @@
       102533631,
       102527513,
       1159285413,
-      1745882293
+      1745882293,
+      1377564285
     ],
-    "wof:lastmodified": 1633450809,
+    "wof:lastmodified": 1633463154,
     "wof:name": "UA2295 (SFO-ORD)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "custom",

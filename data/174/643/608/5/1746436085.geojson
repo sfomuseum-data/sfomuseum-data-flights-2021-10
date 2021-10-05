@@ -2,10 +2,12 @@
   "id": 1746436085,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-04",
-    "date:inception_upper": "2021-10-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-04",
+    "date:cessation_lower": "2021-10-04",
+    "date:cessation_upper": "2021-10-04",
+    "date:inception_lower": "2021-10-05",
+    "date:inception_upper": "2021-10-05",
+    "edtf:cessation": "2021-10-04T13:46:28-07:00",
+    "edtf:inception": "2021-10-05T02:22:00Z",
     "flysfo:actual_timestamp": 1633406040,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS00891300"
+    },
     "wof:country": "US",
     "wof:created": 1633450204,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746436085,
     "wof:involves": [
-      102527513,
-      102532251,
       1159285413,
-      1745882249
+      1745882249,
+      1159289871,
+      102527513,
+      102532251
     ],
-    "wof:lastmodified": 1633450204,
+    "wof:lastmodified": 1633463149,
     "wof:name": "UA1070 (PDX-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

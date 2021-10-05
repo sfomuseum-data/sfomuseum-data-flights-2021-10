@@ -2,10 +2,12 @@
   "id": 1746438267,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-05",
+    "date:cessation_upper": "2021-10-05",
     "date:inception_lower": "2021-10-04",
     "date:inception_upper": "2021-10-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-04",
+    "edtf:cessation": "2021-10-05T00:07:38Z",
+    "edtf:inception": "2021-10-04T23:05:00Z",
     "flysfo:actual_timestamp": 1633388160,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-10-04",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167013265"
+    },
     "wof:country": "US",
     "wof:created": 1633450749,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -86,7 +91,7 @@
       1159285591,
       1745882151
     ],
-    "wof:lastmodified": 1633450749,
+    "wof:lastmodified": 1633463153,
     "wof:name": "WN3807 (SFO-LAX)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",
