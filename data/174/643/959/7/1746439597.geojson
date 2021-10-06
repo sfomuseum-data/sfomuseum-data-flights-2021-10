@@ -2,10 +2,12 @@
   "id": 1746439597,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-05",
-    "date:inception_upper": "2021-10-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-05",
+    "date:cessation_lower": "2021-10-06",
+    "date:cessation_upper": "2021-10-06",
+    "date:inception_lower": "2021-10-06",
+    "date:inception_upper": "2021-10-06",
+    "edtf:cessation": "2021-10-06T05:40:42Z",
+    "edtf:inception": "2021-10-06T03:53:00Z",
     "flysfo:actual_timestamp": 1633499160,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +88,13 @@
     ],
     "wof:id": 1746439597,
     "wof:involves": [
-      102527513,
-      102533269,
       1159283813,
-      1745882095
+      1745882095,
+      1377564285,
+      102527513,
+      102533269
     ],
-    "wof:lastmodified": 1633536271,
+    "wof:lastmodified": 1633537258,
     "wof:name": "AS118 (SEA-SFO)",
     "wof:parent_id": 1745882095,
     "wof:placetype": "custom",
