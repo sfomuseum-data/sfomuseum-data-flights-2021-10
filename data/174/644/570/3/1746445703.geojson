@@ -2,10 +2,12 @@
   "id": 1746445703,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-06",
+    "date:cessation_upper": "2021-10-06",
     "date:inception_lower": "2021-10-06",
     "date:inception_upper": "2021-10-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-06",
+    "edtf:cessation": "2021-10-06T23:33:00Z",
+    "edtf:inception": "2021-10-06T18:34:00Z",
     "flysfo:actual_timestamp": 1633544760,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-10-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N931AM",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167154045",
+      "swim:gufi": "KO62066400"
+    },
     "wof:country": "US",
     "wof:created": 1633623073,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -84,9 +98,10 @@
       102529403,
       102527513,
       1159283849,
-      1745882165
+      1745882165,
+      1159289411
     ],
-    "wof:lastmodified": 1633623073,
+    "wof:lastmodified": 1633623624,
     "wof:name": "AA651 (SFO-PHL)",
     "wof:parent_id": 1745882165,
     "wof:placetype": "custom",
