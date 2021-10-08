@@ -2,10 +2,12 @@
   "id": 1746452325,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-07",
+    "date:cessation_upper": "2021-10-07",
     "date:inception_lower": "2021-10-07",
     "date:inception_upper": "2021-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-07",
+    "edtf:cessation": "2021-10-07T23:14:00Z",
+    "edtf:inception": "2021-10-07T06:19:37-07:00",
     "flysfo:actual_timestamp": 1633637040,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N875UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167249259",
+      "swim:gufi": "KO61792500"
+    },
     "wof:country": "US",
     "wof:created": 1633710032,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -84,9 +98,10 @@
       102521851,
       102527513,
       1159285413,
-      1745882249
+      1745882249,
+      1159289407
     ],
-    "wof:lastmodified": 1633710032,
+    "wof:lastmodified": 1633710177,
     "wof:name": "UA1763 (SFO-AUS)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",
