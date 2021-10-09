@@ -2,10 +2,12 @@
   "id": 1746453389,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-08",
+    "date:cessation_upper": "2021-10-08",
     "date:inception_lower": "2021-10-08",
     "date:inception_upper": "2021-10-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-08",
+    "edtf:cessation": "2021-10-08T21:32:43Z",
+    "edtf:inception": "2021-10-08T09:43:12Z",
     "flysfo:actual_timestamp": 1633734000,
     "flysfo:airline": "NZ",
     "flysfo:date": "2021-10-08",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "167379191"
+    },
     "wof:country": "US",
     "wof:created": 1633795431,
     "wof:geomhash": "07839d38a937070012f963bfe77eb5da",
@@ -50,7 +55,7 @@
       1159283697,
       -1
     ],
-    "wof:lastmodified": 1633795431,
+    "wof:lastmodified": 1633796526,
     "wof:name": "NZ6018 (AKL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

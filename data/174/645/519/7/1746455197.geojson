@@ -2,10 +2,12 @@
   "id": 1746455197,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-08",
+    "date:cessation_upper": "2021-10-08",
     "date:inception_lower": "2021-10-08",
     "date:inception_upper": "2021-10-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-08",
+    "edtf:cessation": "2021-10-08T06:20:32-07:00",
+    "edtf:inception": "2021-10-08T18:25:00Z",
     "flysfo:actual_timestamp": 1633734000,
     "flysfo:airline": "WS",
     "flysfo:date": "2021-10-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "WS",
+    "icao:aircraft": "B738",
     "icao:airline": "WJA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555307,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFRWA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "167329519",
+      "swim:gufi": "KS61941600"
+    },
     "wof:country": "US",
     "wof:created": 1633795898,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1746455197,
     "wof:involves": [
+      1159289871,
       102527513,
       102555307,
-      1159285523,
-      -1
+      1159285523
     ],
-    "wof:lastmodified": 1633795898,
+    "wof:lastmodified": 1633796516,
     "wof:name": "WS1774 (YVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
