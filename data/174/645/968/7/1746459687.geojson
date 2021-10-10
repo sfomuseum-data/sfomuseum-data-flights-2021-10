@@ -2,10 +2,12 @@
   "id": 1746459687,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-10",
+    "date:cessation_upper": "2021-10-10",
     "date:inception_lower": "2021-10-09",
     "date:inception_upper": "2021-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-09",
+    "edtf:cessation": "2021-10-09T23:21:14-07:00",
+    "edtf:inception": "2021-10-09T08:40:00Z",
     "flysfo:actual_timestamp": 1633820400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2140U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167379954"
+    },
     "wof:country": "US",
     "wof:created": 1633882235,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -84,9 +97,10 @@
       102527513,
       102533997,
       1159285413,
-      1745882297
+      1745882297,
+      1159289985
     ],
-    "wof:lastmodified": 1633882235,
+    "wof:lastmodified": 1633882849,
     "wof:name": "UA635 (HNL-SFO)",
     "wof:parent_id": 1745882297,
     "wof:placetype": "custom",
