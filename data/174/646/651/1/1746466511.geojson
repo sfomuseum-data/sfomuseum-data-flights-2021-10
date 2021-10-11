@@ -2,10 +2,12 @@
   "id": 1746466511,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-11",
+    "date:cessation_upper": "2021-10-11",
     "date:inception_lower": "2021-10-10",
     "date:inception_upper": "2021-10-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-10",
+    "edtf:cessation": "2021-10-11T04:47:00Z",
+    "edtf:inception": "2021-10-10T01:34:00Z",
     "flysfo:actual_timestamp": 1633915500,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N471UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167457735",
+      "swim:gufi": "KO83146100"
+    },
     "wof:country": "US",
     "wof:created": 1633969265,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746466511,
     "wof:involves": [
+      1159292085,
       102521851,
       102527513,
       1159285413,
       1745882429
     ],
-    "wof:lastmodified": 1633969265,
+    "wof:lastmodified": 1633969379,
     "wof:name": "UA2356 (SFO-AUS)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "custom",
