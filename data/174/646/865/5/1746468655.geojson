@@ -2,10 +2,12 @@
   "id": 1746468655,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-11",
+    "date:cessation_upper": "2021-10-11",
     "date:inception_lower": "2021-10-11",
     "date:inception_upper": "2021-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-11",
+    "edtf:cessation": "2021-10-11T02:35:08-07:00",
+    "edtf:inception": "2021-10-11T11:11:00Z",
     "flysfo:actual_timestamp": 1633970400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.795441,
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533243,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N464UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167544722"
+    },
     "wof:country": "US",
     "wof:created": 1634055024,
     "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746468655,
     "wof:involves": [
-      102527513,
       102533243,
       1159285413,
-      1745882257
+      1745882257,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1634055024,
+    "wof:lastmodified": 1634055737,
     "wof:name": "UA1513 (TPA-SFO)",
     "wof:parent_id": 1745882257,
     "wof:placetype": "custom",

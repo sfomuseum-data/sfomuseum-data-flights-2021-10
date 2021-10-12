@@ -2,10 +2,12 @@
   "id": 1746468781,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-11",
-    "date:inception_upper": "2021-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-11",
+    "date:cessation_lower": "2021-10-11",
+    "date:cessation_upper": "2021-10-11",
+    "date:inception_lower": "2021-10-12",
+    "date:inception_upper": "2021-10-12",
+    "edtf:cessation": "2021-10-11T12:28:39-07:00",
+    "edtf:inception": "2021-10-12T00:16:00Z",
     "flysfo:actual_timestamp": 1634006100,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N446UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KD75162200"
+    },
     "wof:country": "US",
     "wof:created": 1634055055,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -84,9 +97,10 @@
       102527513,
       102531189,
       1159285413,
-      1745882251
+      1745882251,
+      1159292085
     ],
-    "wof:lastmodified": 1634055055,
+    "wof:lastmodified": 1634055739,
     "wof:name": "UA2681 (DEN-SFO)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",

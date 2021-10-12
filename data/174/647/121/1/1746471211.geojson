@@ -2,10 +2,12 @@
   "id": 1746471211,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-12",
+    "date:cessation_upper": "2021-10-12",
     "date:inception_lower": "2021-10-11",
     "date:inception_upper": "2021-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-11",
+    "edtf:cessation": "2021-10-12T06:44:31Z",
+    "edtf:inception": "2021-10-11T21:22:00Z",
     "flysfo:actual_timestamp": 1633993200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.781954,
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549057,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2138U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167590450",
+      "swim:gufi": "KO64202200"
+    },
     "wof:country": "US",
     "wof:created": 1634055671,
     "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746471211,
     "wof:involves": [
-      102549057,
       102527513,
       1159285413,
-      1745882421
+      1745882421,
+      1159289993,
+      102549057
     ],
-    "wof:lastmodified": 1634055671,
+    "wof:lastmodified": 1634055733,
     "wof:name": "UA58 (SFO-FRA)",
     "wof:parent_id": 1745882421,
     "wof:placetype": "custom",

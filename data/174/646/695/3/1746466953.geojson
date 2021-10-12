@@ -2,10 +2,12 @@
   "id": 1746466953,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-11",
+    "date:cessation_upper": "2021-10-11",
     "date:inception_lower": "2021-10-11",
     "date:inception_upper": "2021-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-11",
+    "edtf:cessation": "2021-10-11T08:38:00Z",
+    "edtf:inception": "2021-10-11T05:16:00Z",
     "flysfo:actual_timestamp": 1633941660,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-10-11",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167535097"
+    },
     "wof:country": "US",
     "wof:created": 1634054515,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -86,7 +91,7 @@
       1159283849,
       1745882169
     ],
-    "wof:lastmodified": 1634054515,
+    "wof:lastmodified": 1634055721,
     "wof:name": "AA446 (DFW-SFO)",
     "wof:parent_id": 1745882169,
     "wof:placetype": "custom",
