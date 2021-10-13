@@ -2,10 +2,12 @@
   "id": 1746473241,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-12",
+    "date:cessation_upper": "2021-10-12",
     "date:inception_lower": "2021-10-12",
     "date:inception_upper": "2021-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-12",
+    "edtf:cessation": "2021-10-12T04:38:47-07:00",
+    "edtf:inception": "2021-10-12T17:25:00Z",
     "flysfo:actual_timestamp": 1634064240,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N830UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167650085",
+      "swim:gufi": "KS55254301"
+    },
     "wof:country": "US",
     "wof:created": 1634141496,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746473241,
     "wof:involves": [
+      1159289407,
       102527513,
       102532251,
       1159285413,
       1745882303
     ],
-    "wof:lastmodified": 1634141496,
+    "wof:lastmodified": 1634142232,
     "wof:name": "UA1491 (PDX-SFO)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746471801,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-12",
+    "date:cessation_upper": "2021-10-12",
     "date:inception_lower": "2021-10-12",
     "date:inception_upper": "2021-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-12",
+    "edtf:cessation": "2021-10-12T08:43:16-07:00",
+    "edtf:inception": "2021-10-12T20:51:00Z",
     "flysfo:actual_timestamp": 1634079600,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-10-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
+    "icao:aircraft": "A321",
     "icao:airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555307,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGJWN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167666687",
+      "swim:gufi": "KS71277300"
+    },
     "wof:country": "US",
     "wof:created": 1634141093,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -84,9 +97,10 @@
       102527513,
       102555307,
       1159283597,
-      1745882409
+      1745882409,
+      1159289411
     ],
-    "wof:lastmodified": 1634141093,
+    "wof:lastmodified": 1634142228,
     "wof:name": "AC562 (YVR-SFO)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "custom",

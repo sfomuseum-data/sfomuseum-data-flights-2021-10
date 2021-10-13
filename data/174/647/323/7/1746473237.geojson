@@ -2,10 +2,12 @@
   "id": 1746473237,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-12",
+    "date:cessation_upper": "2021-10-12",
     "date:inception_lower": "2021-10-12",
     "date:inception_upper": "2021-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-12",
+    "edtf:cessation": "2021-10-12T11:20:52-07:00",
+    "edtf:inception": "2021-10-12T21:13:00Z",
     "flysfo:actual_timestamp": 1634079600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534155,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N78506",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167624962",
+      "swim:gufi": "KI67346300"
+    },
     "wof:country": "US",
     "wof:created": 1634141494,
     "wof:geomhash": "c95405ad82a47404b222d64c163ad7d9",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746473237,
     "wof:involves": [
+      1159289871,
       102527513,
       102534155,
       1159285413,
       1745882251
     ],
-    "wof:lastmodified": 1634141494,
+    "wof:lastmodified": 1634142219,
     "wof:name": "UA1467 (IND-SFO)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",

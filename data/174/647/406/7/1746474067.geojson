@@ -2,10 +2,12 @@
   "id": 1746474067,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-12",
+    "date:cessation_upper": "2021-10-12",
     "date:inception_lower": "2021-10-12",
     "date:inception_upper": "2021-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-12",
+    "edtf:cessation": "2021-10-12T18:41:00Z",
+    "edtf:inception": "2021-10-12T14:23:00Z",
     "flysfo:actual_timestamp": 1634079600,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-10-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "A321",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGIUE",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167634076",
+      "swim:gufi": "KO42892300"
+    },
     "wof:country": "US",
     "wof:created": 1634141722,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746474067,
     "wof:involves": [
-      102555091,
-      102527513,
       1159283597,
-      1745882429
+      1745882429,
+      1159289411,
+      102555091,
+      102527513
     ],
-    "wof:lastmodified": 1634141722,
+    "wof:lastmodified": 1634142222,
     "wof:name": "AC738 (SFO-YYZ)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "custom",
