@@ -2,10 +2,12 @@
   "id": 1746483819,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-14",
+    "date:cessation_upper": "2021-10-14",
     "date:inception_lower": "2021-10-14",
     "date:inception_upper": "2021-10-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-14",
+    "edtf:cessation": "2021-10-14T15:38:00Z",
+    "edtf:inception": "2021-10-14T14:39:00Z",
     "flysfo:actual_timestamp": 1634252400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N636VA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "167801541"
+    },
     "wof:country": "US",
     "wof:created": 1634314631,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746483819,
     "wof:involves": [
-      102533795,
-      102527513,
       1159283813,
-      -1
+      1159292085,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1634314631,
+    "wof:lastmodified": 1634315060,
     "wof:name": "AS859 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
