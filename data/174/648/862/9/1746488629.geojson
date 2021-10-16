@@ -1,0 +1,69 @@
+{
+  "id": 1746488629,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-10-15",
+    "date:inception_upper": "2021-10-15",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-10-15",
+    "flysfo:actual_timestamp": 1634338800,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2021-10-15",
+    "flysfo:estimated_timestamp": 1634358480,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AS9716",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-EUG",
+    "flysfo:scheduled_timestamp": 1634358480,
+    "flysfo:timestamp": 1634358480,
+    "geom:area": 0,
+    "geom:bbox": "-123.213030,37.617990,-122.370943,44.119058",
+    "geom:latitude": 40.868524,
+    "geom:longitude": -122.79198650000001,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102533927,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20211015-D-ASA-9716",
+    "sfomuseum:flight_number": [
+      "ASA9716",
+      "AS9716"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1634400985,
+    "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746488629
+      }
+    ],
+    "wof:id": 1746488629,
+    "wof:involves": [
+      102533927,
+      102527513,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1634400985,
+    "wof:name": "AS9716 (SFO-EUG)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -123.21303,
+    37.61799,
+    -122.370943,
+    44.119058
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-123.21303,44.119058]],"type":"MultiPoint"}
+}
