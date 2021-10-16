@@ -2,10 +2,12 @@
   "id": 1746487419,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-15",
+    "date:cessation_upper": "2021-10-15",
     "date:inception_lower": "2021-10-15",
     "date:inception_upper": "2021-10-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-15",
+    "edtf:cessation": "2021-10-15T08:30:33-07:00",
+    "edtf:inception": "2021-10-15T20:56:00Z",
     "flysfo:actual_timestamp": 1634337120,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77296",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167930210",
+      "swim:gufi": "KA60022600"
+    },
     "wof:country": "US",
     "wof:created": 1634400647,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -84,9 +98,10 @@
       102527513,
       102526751,
       1159285413,
-      1745882315
+      1745882315,
+      1159289871
     ],
-    "wof:lastmodified": 1634400647,
+    "wof:lastmodified": 1634402120,
     "wof:name": "UA2080 (PHX-SFO)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",

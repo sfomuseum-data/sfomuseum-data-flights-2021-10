@@ -2,10 +2,12 @@
   "id": 1746486417,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-15",
+    "date:cessation_upper": "2021-10-15",
     "date:inception_lower": "2021-10-15",
     "date:inception_upper": "2021-10-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-15",
+    "edtf:cessation": "2021-10-15T09:44:19-07:00",
+    "edtf:inception": "2021-10-15T12:08:42Z",
     "flysfo:actual_timestamp": 1634342100,
     "flysfo:airline": "MU",
     "flysfo:date": "2021-10-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.381651,
     "geom:longitude": -0.285817999999999,
     "iata:airline": "MU",
+    "icao:aircraft": "A332",
     "icao:airline": "CES",
     "lbl:latitude": 37.611565,
     "lbl:longitude": -122.389912,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284157,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102550331,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "B5902",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "167962470"
+    },
     "wof:country": "US",
     "wof:created": 1634400384,
     "wof:geomhash": "0a16624c451961804ad27ef012213244",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746486417,
     "wof:involves": [
-      102527513,
       102550331,
       1159284157,
-      1745882391
+      1745882391,
+      1159289421,
+      102527513
     ],
-    "wof:lastmodified": 1634400384,
+    "wof:lastmodified": 1634402130,
     "wof:name": "MU7589 (PVG-SFO)",
     "wof:parent_id": 1745882391,
     "wof:placetype": "custom",
