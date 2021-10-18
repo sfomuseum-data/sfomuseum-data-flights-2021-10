@@ -2,10 +2,12 @@
   "id": 1746498061,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-17",
+    "date:cessation_upper": "2021-10-17",
     "date:inception_lower": "2021-10-17",
     "date:inception_upper": "2021-10-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-17",
+    "edtf:cessation": "2021-10-17T16:35:00Z",
+    "edtf:inception": "2021-10-17T13:23:00Z",
     "flysfo:actual_timestamp": 1634511600,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-10-17",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168060409"
+    },
     "wof:country": "US",
     "wof:created": 1634573871,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -86,7 +91,7 @@
       1159284261,
       1745882203
     ],
-    "wof:lastmodified": 1634573871,
+    "wof:lastmodified": 1634574017,
     "wof:name": "DL970 (SFO-MSP)",
     "wof:parent_id": 1745882203,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746497807,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-17",
+    "date:cessation_upper": "2021-10-17",
     "date:inception_lower": "2021-10-17",
     "date:inception_upper": "2021-10-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-17",
+    "edtf:cessation": "2021-10-17T05:02:47Z",
+    "edtf:inception": "2021-10-17T03:33:00Z",
     "flysfo:actual_timestamp": 1634530440,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-17",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168043785"
+    },
     "wof:country": "US",
     "wof:created": 1634573803,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -86,7 +91,7 @@
       1159283813,
       1745882105
     ],
-    "wof:lastmodified": 1634573803,
+    "wof:lastmodified": 1634574009,
     "wof:name": "AS580 (SFO-SEA)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "custom",
