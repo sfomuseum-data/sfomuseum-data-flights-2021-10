@@ -2,10 +2,12 @@
   "id": 1746501825,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-18",
+    "date:cessation_upper": "2021-10-18",
     "date:inception_lower": "2021-10-18",
     "date:inception_upper": "2021-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-18",
+    "edtf:cessation": "2021-10-18T22:05:39Z",
+    "edtf:inception": "2021-10-18T16:49:00Z",
     "flysfo:actual_timestamp": 1634574240,
     "flysfo:airline": "HA",
     "flysfo:date": "2021-10-18",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168153032"
+    },
     "wof:country": "US",
     "wof:created": 1634660212,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -86,7 +91,7 @@
       1159284489,
       1745882381
     ],
-    "wof:lastmodified": 1634660212,
+    "wof:lastmodified": 1634660504,
     "wof:name": "HA11 (SFO-HNL)",
     "wof:parent_id": 1745882381,
     "wof:placetype": "custom",

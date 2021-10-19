@@ -2,10 +2,12 @@
   "id": 1746499031,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-18",
+    "date:cessation_upper": "2021-10-18",
     "date:inception_lower": "2021-10-18",
     "date:inception_upper": "2021-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-18",
+    "edtf:cessation": "2021-10-18T22:34:12Z",
+    "edtf:inception": "2021-10-18T20:44:00Z",
     "flysfo:actual_timestamp": 1634595480,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-18",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168173762"
+    },
     "wof:country": "US",
     "wof:created": 1634659517,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -86,7 +91,7 @@
       1159283813,
       1745882101
     ],
-    "wof:lastmodified": 1634659517,
+    "wof:lastmodified": 1634660498,
     "wof:name": "AS1181 (SEA-SFO)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

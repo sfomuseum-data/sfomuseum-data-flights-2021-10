@@ -2,10 +2,12 @@
   "id": 1746500093,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-18",
+    "date:cessation_upper": "2021-10-18",
     "date:inception_lower": "2021-10-18",
     "date:inception_upper": "2021-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-18",
+    "edtf:cessation": "2021-10-18T21:52:00Z",
+    "edtf:inception": "2021-10-18T20:54:21Z",
     "flysfo:actual_timestamp": 1634593980,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-10-18",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168175993"
+    },
     "wof:country": "US",
     "wof:created": 1634659784,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -86,7 +91,7 @@
       1159285591,
       1745882149
     ],
-    "wof:lastmodified": 1634659784,
+    "wof:lastmodified": 1634660495,
     "wof:name": "WN859 (BUR-SFO)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "custom",

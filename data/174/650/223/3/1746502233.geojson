@@ -2,10 +2,12 @@
   "id": 1746502233,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-18",
+    "date:cessation_upper": "2021-10-18",
     "date:inception_lower": "2021-10-18",
     "date:inception_upper": "2021-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-18",
+    "edtf:cessation": "2021-10-18T23:00:00Z",
+    "edtf:inception": "2021-10-18T20:10:00Z",
     "flysfo:actual_timestamp": 1634598000,
     "flysfo:airline": "SY",
     "flysfo:date": "2021-10-18",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "168248385"
+    },
     "wof:country": "US",
     "wof:created": 1634660311,
     "wof:geomhash": "15b112f2955ad354f72c3865722bb247",
@@ -50,7 +55,7 @@
       1159285227,
       -1
     ],
-    "wof:lastmodified": 1634660311,
+    "wof:lastmodified": 1634660505,
     "wof:name": "SY3006 (SFO-AFW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

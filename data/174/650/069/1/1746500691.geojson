@@ -2,10 +2,12 @@
   "id": 1746500691,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-19",
+    "date:cessation_upper": "2021-10-19",
     "date:inception_lower": "2021-10-18",
     "date:inception_upper": "2021-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-18",
+    "edtf:cessation": "2021-10-19T00:10:00Z",
+    "edtf:inception": "2021-10-18T20:27:00Z",
     "flysfo:actual_timestamp": 1634588160,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-10-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N908AA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168174361",
+      "swim:gufi": "KO68639200"
+    },
     "wof:country": "US",
     "wof:created": 1634659933,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -84,9 +97,10 @@
       102533631,
       102527513,
       1159283849,
-      1745882193
+      1745882193,
+      1159289411
     ],
-    "wof:lastmodified": 1634659933,
+    "wof:lastmodified": 1634660498,
     "wof:name": "AA2824 (SFO-ORD)",
     "wof:parent_id": 1745882193,
     "wof:placetype": "custom",

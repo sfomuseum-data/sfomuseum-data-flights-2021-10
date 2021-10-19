@@ -2,10 +2,12 @@
   "id": 1746502315,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-18",
+    "date:cessation_upper": "2021-10-18",
     "date:inception_lower": "2021-10-18",
     "date:inception_upper": "2021-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-18",
+    "edtf:cessation": "2021-10-18T22:11:32Z",
+    "edtf:inception": "2021-10-18T21:04:00Z",
     "flysfo:actual_timestamp": 1634590620,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-10-18",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168177172"
+    },
     "wof:country": "US",
     "wof:created": 1634660333,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -86,7 +91,7 @@
       1159285591,
       1745882149
     ],
-    "wof:lastmodified": 1634660333,
+    "wof:lastmodified": 1634660505,
     "wof:name": "WN2208 (SFO-SAN)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746501783,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-18",
+    "date:cessation_upper": "2021-10-18",
     "date:inception_lower": "2021-10-18",
     "date:inception_upper": "2021-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-18",
+    "edtf:cessation": "2021-10-18T22:44:00Z",
+    "edtf:inception": "2021-10-18T21:52:00Z",
     "flysfo:actual_timestamp": 1634598000,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-10-18",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168164703"
+    },
     "wof:country": "US",
     "wof:created": 1634660201,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -86,7 +91,7 @@
       1159284401,
       1745882399
     ],
-    "wof:lastmodified": 1634660201,
+    "wof:lastmodified": 1634660504,
     "wof:name": "F92754 (SFO-ONT)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "custom",
