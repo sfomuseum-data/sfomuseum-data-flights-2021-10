@@ -2,10 +2,12 @@
   "id": 1746504863,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-19",
+    "date:cessation_upper": "2021-10-19",
     "date:inception_lower": "2021-10-19",
     "date:inception_upper": "2021-10-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-19",
+    "edtf:cessation": "2021-10-19T06:55:38Z",
+    "edtf:inception": "2021-10-19T06:02:00Z",
     "flysfo:actual_timestamp": 1634626920,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -48,6 +52,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168202505",
+      "swim:gufi": "KL11496300"
+    },
     "wof:country": "US",
     "wof:created": 1634746226,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746504863,
     "wof:involves": [
+      1745882249,
+      1528104577,
       102527513,
       102533795,
-      1159285413,
-      1745882249
+      1159285413
     ],
-    "wof:lastmodified": 1634746226,
+    "wof:lastmodified": 1634746883,
     "wof:name": "UA1597 (LAX-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",
