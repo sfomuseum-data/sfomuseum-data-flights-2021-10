@@ -2,10 +2,12 @@
   "id": 1746511783,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-21",
+    "date:cessation_upper": "2021-10-21",
     "date:inception_lower": "2021-10-20",
     "date:inception_upper": "2021-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-20",
+    "edtf:cessation": "2021-10-21T02:12:00Z",
+    "edtf:inception": "2021-10-20T07:18:05-07:00",
     "flysfo:actual_timestamp": 1634762040,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N19136",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "168347871",
+      "swim:gufi": "KO63840400"
+    },
     "wof:country": "US",
     "wof:created": 1634833303,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746511783,
     "wof:involves": [
+      1159289939,
       102532929,
       102527513,
       1159285413,
       1745882283
     ],
-    "wof:lastmodified": 1634833303,
+    "wof:lastmodified": 1634833395,
     "wof:name": "UA539 (SFO-OGG)",
     "wof:parent_id": 1745882283,
     "wof:placetype": "custom",
