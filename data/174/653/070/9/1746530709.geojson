@@ -2,10 +2,12 @@
   "id": 1746530709,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-24",
+    "date:cessation_upper": "2021-10-24",
     "date:inception_lower": "2021-10-24",
     "date:inception_upper": "2021-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-24",
+    "edtf:cessation": "2021-10-24T14:22:13Z",
+    "edtf:inception": "2021-10-24T13:21:00Z",
     "flysfo:actual_timestamp": 1635081060,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-10-24",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6469141"
+    },
     "wof:country": "US",
     "wof:created": 1635178842,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -86,7 +94,7 @@
       1159285591,
       1745882155
     ],
-    "wof:lastmodified": 1635178842,
+    "wof:lastmodified": 1635179037,
     "wof:name": "WN3489 (SFO-LAS)",
     "wof:parent_id": 1745882155,
     "wof:placetype": "custom",

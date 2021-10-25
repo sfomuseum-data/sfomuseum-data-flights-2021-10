@@ -2,10 +2,12 @@
   "id": 1746530707,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-24",
+    "date:cessation_upper": "2021-10-24",
     "date:inception_lower": "2021-10-24",
     "date:inception_upper": "2021-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-24",
+    "edtf:cessation": "2021-10-24T14:46:22Z",
+    "edtf:inception": "2021-10-24T13:42:00Z",
     "flysfo:actual_timestamp": 1635082080,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-10-24",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6469615"
+    },
     "wof:country": "US",
     "wof:created": 1635178841,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -86,7 +94,7 @@
       1159285591,
       1745882153
     ],
-    "wof:lastmodified": 1635178841,
+    "wof:lastmodified": 1635179037,
     "wof:name": "WN1968 (SFO-SAN)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "custom",
