@@ -2,10 +2,12 @@
   "id": 1746535553,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-25",
+    "date:cessation_upper": "2021-10-25",
     "date:inception_lower": "2021-10-25",
     "date:inception_upper": "2021-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-25",
+    "edtf:cessation": "2021-10-25T22:00:00Z",
+    "edtf:inception": "2021-10-25T18:43:00Z",
     "flysfo:actual_timestamp": 1635202800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76021",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6565147",
+      "swim:gufi": "KO57322201"
+    },
     "wof:country": "US",
     "wof:created": 1635265172,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -84,9 +98,10 @@
       102534097,
       102527513,
       1159285413,
-      1745882297
+      1745882297,
+      1159289985
     ],
-    "wof:lastmodified": 1635265172,
+    "wof:lastmodified": 1635265321,
     "wof:name": "UA1789 (SFO-IAH)",
     "wof:parent_id": 1745882297,
     "wof:placetype": "custom",

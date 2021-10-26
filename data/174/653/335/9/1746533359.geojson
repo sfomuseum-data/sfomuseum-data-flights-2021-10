@@ -2,10 +2,12 @@
   "id": 1746533359,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-25",
+    "date:cessation_upper": "2021-10-25",
     "date:inception_lower": "2021-10-25",
     "date:inception_upper": "2021-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-25",
+    "edtf:cessation": "2021-10-25T13:50:39-07:00",
+    "edtf:inception": "2021-10-25T23:22:00Z",
     "flysfo:actual_timestamp": 1635202800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N459UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6589335",
+      "swim:gufi": "KM75565200"
+    },
     "wof:country": "US",
     "wof:created": 1635264630,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -84,9 +98,10 @@
       102527513,
       102525035,
       1159285413,
-      1745882255
+      1745882255,
+      1159292085
     ],
-    "wof:lastmodified": 1635264630,
+    "wof:lastmodified": 1635265326,
     "wof:name": "UA1957 (BNA-SFO)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

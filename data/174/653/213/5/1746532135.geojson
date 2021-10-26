@@ -2,10 +2,12 @@
   "id": 1746532135,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-25",
+    "date:cessation_upper": "2021-10-25",
     "date:inception_lower": "2021-10-25",
     "date:inception_upper": "2021-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-25",
+    "edtf:cessation": "2021-10-25T18:22:21Z",
+    "edtf:inception": "2021-10-25T16:59:00Z",
     "flysfo:actual_timestamp": 1635202800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-25",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6557854"
+    },
     "wof:country": "US",
     "wof:created": 1635264322,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -86,7 +91,7 @@
       1159283813,
       1745882105
     ],
-    "wof:lastmodified": 1635264322,
+    "wof:lastmodified": 1635265316,
     "wof:name": "AS1126 (PDX-SFO)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "custom",

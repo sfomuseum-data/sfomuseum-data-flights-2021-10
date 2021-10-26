@@ -2,10 +2,12 @@
   "id": 1746533387,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-25",
-    "date:inception_upper": "2021-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-25",
+    "date:cessation_lower": "2021-10-25",
+    "date:cessation_upper": "2021-10-25",
+    "date:inception_lower": "2021-10-26",
+    "date:inception_upper": "2021-10-26",
+    "edtf:cessation": "2021-10-25T13:20:02-07:00",
+    "edtf:inception": "2021-10-26T01:50:00Z",
     "flysfo:actual_timestamp": 1635202800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N828UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS82838200"
+    },
     "wof:country": "US",
     "wof:created": 1635264637,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746533387,
     "wof:involves": [
-      102527513,
-      102533269,
       1159285413,
-      1745882309
+      1745882309,
+      1159289407,
+      102527513,
+      102533269
     ],
-    "wof:lastmodified": 1635264637,
+    "wof:lastmodified": 1635265326,
     "wof:name": "UA214 (SEA-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",

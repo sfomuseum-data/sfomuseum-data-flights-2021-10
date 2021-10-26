@@ -2,10 +2,12 @@
   "id": 1746532643,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-25",
+    "date:cessation_upper": "2021-10-25",
     "date:inception_lower": "2021-10-25",
     "date:inception_upper": "2021-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-25",
+    "edtf:cessation": "2021-10-25T06:41:00Z",
+    "edtf:inception": "2021-10-25T04:18:00Z",
     "flysfo:actual_timestamp": 1635202800,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-10-25",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "6528128"
+    },
     "wof:country": "US",
     "wof:created": 1635264451,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -50,7 +55,7 @@
       1159284401,
       -1
     ],
-    "wof:lastmodified": 1635264451,
+    "wof:lastmodified": 1635265324,
     "wof:name": "F9667 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746533417,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-25",
+    "date:cessation_upper": "2021-10-25",
     "date:inception_lower": "2021-10-25",
     "date:inception_upper": "2021-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-25",
+    "edtf:cessation": "2021-10-25T12:29:44-07:00",
+    "edtf:inception": "2021-10-25T20:54:00Z",
     "flysfo:actual_timestamp": 1635202800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2332U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6568088",
+      "swim:gufi": "KN63447200"
+    },
     "wof:country": "US",
     "wof:created": 1635264645,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746533417,
     "wof:involves": [
-      102527513,
       102530049,
       1159285413,
-      1745882275
+      1745882275,
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1635264645,
+    "wof:lastmodified": 1635265327,
     "wof:name": "UA2632 (EWR-SFO)",
     "wof:parent_id": 1745882275,
     "wof:placetype": "custom",
