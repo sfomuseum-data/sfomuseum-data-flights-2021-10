@@ -2,10 +2,12 @@
   "id": 1746539401,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-26",
+    "date:cessation_upper": "2021-10-26",
     "date:inception_lower": "2021-10-26",
     "date:inception_upper": "2021-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-26",
+    "edtf:cessation": "2021-10-26T00:46:50-07:00",
+    "edtf:inception": "2021-10-26T11:25:00Z",
     "flysfo:actual_timestamp": 1635289200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102521851,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N483UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6610755",
+      "swim:gufi": "KH26981300"
+    },
     "wof:country": "US",
     "wof:created": 1635351073,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -84,9 +98,10 @@
       102527513,
       102521851,
       1159285413,
-      1745882417
+      1745882417,
+      1159292085
     ],
-    "wof:lastmodified": 1635351073,
+    "wof:lastmodified": 1635351776,
     "wof:name": "UA2123 (AUS-SFO)",
     "wof:parent_id": 1745882417,
     "wof:placetype": "custom",

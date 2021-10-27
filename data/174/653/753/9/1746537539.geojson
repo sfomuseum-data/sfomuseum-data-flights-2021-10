@@ -2,10 +2,12 @@
   "id": 1746537539,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-26",
+    "date:cessation_upper": "2021-10-26",
     "date:inception_lower": "2021-10-26",
     "date:inception_upper": "2021-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-26",
+    "edtf:cessation": "2021-10-26T19:06:00Z",
+    "edtf:inception": "2021-10-26T13:18:00Z",
     "flysfo:actual_timestamp": 1635289200,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-10-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529403,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "6617860"
+    },
     "wof:country": "US",
     "wof:created": 1635350563,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -45,12 +55,12 @@
     ],
     "wof:id": 1746537539,
     "wof:involves": [
+      1159289411,
       102527513,
       102529403,
-      1159283849,
-      -1
+      1159283849
     ],
-    "wof:lastmodified": 1635350563,
+    "wof:lastmodified": 1635351764,
     "wof:name": "AA614 (PHL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
