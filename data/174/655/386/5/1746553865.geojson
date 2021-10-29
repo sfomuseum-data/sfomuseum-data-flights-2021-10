@@ -2,10 +2,12 @@
   "id": 1746553865,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-29",
+    "date:cessation_upper": "2021-10-29",
     "date:inception_lower": "2021-10-28",
     "date:inception_upper": "2021-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-28",
+    "edtf:cessation": "2021-10-29T10:44:00Z",
+    "edtf:inception": "2021-10-28T15:50:01-07:00",
     "flysfo:actual_timestamp": 1635462000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27519",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO08976600"
+    },
     "wof:country": "US",
     "wof:created": 1635525377,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746553865,
     "wof:involves": [
-      102529403,
-      102527513,
       1159285413,
-      1745882251
+      1745882251,
+      1528104577,
+      102529403,
+      102527513
     ],
-    "wof:lastmodified": 1635525377,
+    "wof:lastmodified": 1635525553,
     "wof:name": "UA1074 (SFO-PHL)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",

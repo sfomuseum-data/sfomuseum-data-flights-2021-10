@@ -2,10 +2,12 @@
   "id": 1746550643,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-28",
-    "date:inception_upper": "2021-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-28",
+    "date:cessation_lower": "2021-10-28",
+    "date:cessation_upper": "2021-10-28",
+    "date:inception_lower": "2021-10-29",
+    "date:inception_upper": "2021-10-29",
+    "edtf:cessation": "2021-10-28T12:04:11-07:00",
+    "edtf:inception": "2021-10-29T00:20:00Z",
     "flysfo:actual_timestamp": 1635473280,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-10-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N372DA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6751054",
+      "swim:gufi": "KS84343500"
+    },
     "wof:country": "US",
     "wof:created": 1635523636,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746550643,
     "wof:involves": [
-      102527513,
-      102533269,
       1159284261,
-      1745882201
+      1745882201,
+      1159289871,
+      102527513,
+      102533269
     ],
-    "wof:lastmodified": 1635523636,
+    "wof:lastmodified": 1635525547,
     "wof:name": "DL1504 (SEA-SFO)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "custom",

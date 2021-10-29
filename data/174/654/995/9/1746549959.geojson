@@ -2,10 +2,12 @@
   "id": 1746549959,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-10-28",
-    "date:inception_upper": "2021-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-28",
+    "date:cessation_lower": "2021-10-29",
+    "date:cessation_upper": "2021-10-29",
+    "date:inception_lower": "2021-10-29",
+    "date:inception_upper": "2021-10-29",
+    "edtf:cessation": "2021-10-29T04:17:40Z",
+    "edtf:inception": "2021-10-29T02:17:00Z",
     "flysfo:actual_timestamp": 1635462000,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-10-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
+    "icao:aircraft": "A320",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555307,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFSJJ",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6756586",
+      "swim:gufi": "KS04421500"
+    },
     "wof:country": "US",
     "wof:created": 1635523453,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746549959,
     "wof:involves": [
+      1745882423,
+      1159292085,
       102527513,
       102555307,
-      1159283597,
-      1745882423
+      1159283597
     ],
-    "wof:lastmodified": 1635523453,
+    "wof:lastmodified": 1635525546,
     "wof:name": "AC568 (YVR-SFO)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "custom",
