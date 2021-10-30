@@ -2,10 +2,12 @@
   "id": 1746556055,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-29",
+    "date:cessation_upper": "2021-10-29",
     "date:inception_lower": "2021-10-29",
     "date:inception_upper": "2021-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-29",
+    "edtf:cessation": "2021-10-29T05:50:32Z",
+    "edtf:inception": "2021-10-29T04:44:00Z",
     "flysfo:actual_timestamp": 1635548400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-29",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6847090"
+    },
     "wof:country": "US",
     "wof:created": 1635609954,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -86,7 +91,7 @@
       1159283813,
       1745882101
     ],
-    "wof:lastmodified": 1635609954,
+    "wof:lastmodified": 1635611036,
     "wof:name": "AS1425 (LAS-SFO)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

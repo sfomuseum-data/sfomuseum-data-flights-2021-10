@@ -2,10 +2,12 @@
   "id": 1746556139,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-29",
+    "date:cessation_upper": "2021-10-29",
     "date:inception_lower": "2021-10-29",
     "date:inception_upper": "2021-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-29",
+    "edtf:cessation": "2021-10-29T19:34:37Z",
+    "edtf:inception": "2021-10-29T17:47:00Z",
     "flysfo:actual_timestamp": 1635548400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N839VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6881460"
+    },
     "wof:country": "US",
     "wof:created": 1635609975,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746556139,
     "wof:involves": [
+      1159292085,
       102527513,
       102533269,
       1159283813,
       1745882101
     ],
-    "wof:lastmodified": 1635609975,
+    "wof:lastmodified": 1635611036,
     "wof:name": "AS742 (SEA-SFO)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

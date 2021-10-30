@@ -2,10 +2,12 @@
   "id": 1746556043,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-30",
+    "date:cessation_upper": "2021-10-30",
     "date:inception_lower": "2021-10-29",
     "date:inception_upper": "2021-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-29",
+    "edtf:cessation": "2021-10-30T04:22:00Z",
+    "edtf:inception": "2021-10-29T22:40:00Z",
     "flysfo:actual_timestamp": 1635567900,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N838VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1746556043,
     "wof:involves": [
+      1745882117,
+      1159292085,
       102527513,
       102530741,
-      1159283813,
-      1745882117
+      1159283813
     ],
-    "wof:lastmodified": 1635609951,
+    "wof:lastmodified": 1635611036,
     "wof:name": "AS1359 (BOS-SFO)",
     "wof:parent_id": 1745882117,
     "wof:placetype": "custom",
