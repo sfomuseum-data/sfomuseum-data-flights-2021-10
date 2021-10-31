@@ -2,10 +2,12 @@
   "id": 1746562399,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-30",
+    "date:cessation_upper": "2021-10-30",
     "date:inception_lower": "2021-10-30",
     "date:inception_upper": "2021-10-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-30",
+    "edtf:cessation": "2021-10-30T20:11:00Z",
+    "edtf:inception": "2021-10-30T02:47:22-07:00",
     "flysfo:actual_timestamp": 1635634800,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-10-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N933AM",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6967899",
+      "swim:gufi": "KO55008700"
+    },
     "wof:country": "US",
     "wof:created": 1635696781,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746562399,
     "wof:involves": [
-      102533631,
       102527513,
       1159283849,
-      1745882169
+      1745882169,
+      1159289411,
+      102533631
     ],
-    "wof:lastmodified": 1635696781,
+    "wof:lastmodified": 1635697371,
     "wof:name": "AA2691 (SFO-ORD)",
     "wof:parent_id": 1745882169,
     "wof:placetype": "custom",

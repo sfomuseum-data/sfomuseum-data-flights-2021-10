@@ -2,10 +2,12 @@
   "id": 1746560883,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-30",
+    "date:cessation_upper": "2021-10-30",
     "date:inception_lower": "2021-10-30",
     "date:inception_upper": "2021-10-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-30",
+    "edtf:cessation": "2021-10-30T20:15:59Z",
+    "edtf:inception": "2021-10-30T18:28:09Z",
     "flysfo:actual_timestamp": 1635634800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-10-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N361VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6980455"
+    },
     "wof:country": "US",
     "wof:created": 1635696359,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1746560883,
     "wof:involves": [
+      1159292085,
       102527513,
       102532251,
       1159283813,
       1745882121
     ],
-    "wof:lastmodified": 1635696359,
+    "wof:lastmodified": 1635697361,
     "wof:name": "AS1416 (PDX-SFO)",
     "wof:parent_id": 1745882121,
     "wof:placetype": "custom",

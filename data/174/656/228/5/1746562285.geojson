@@ -2,10 +2,12 @@
   "id": 1746562285,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-31",
+    "date:cessation_upper": "2021-10-31",
     "date:inception_lower": "2021-10-30",
     "date:inception_upper": "2021-10-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-30",
+    "edtf:cessation": "2021-10-30T21:41:27-07:00",
+    "edtf:inception": "2021-10-30T22:01:00Z",
     "flysfo:actual_timestamp": 1635594780,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.811792499999996,
     "geom:longitude": -43.7468645,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102542687,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N26967",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "6994899",
+      "swim:gufi": "KS33906100"
+    },
     "wof:country": "US",
     "wof:created": 1635696753,
     "wof:geomhash": "87edecefb4d177e60996116ddda38e44",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746562285,
     "wof:involves": [
+      1159293215,
       102527513,
       102542687,
       1159285413,
       1745882423
     ],
-    "wof:lastmodified": 1635696753,
+    "wof:lastmodified": 1635697371,
     "wof:name": "UA955 (TLV-SFO)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "custom",
