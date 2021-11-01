@@ -1,0 +1,69 @@
+{
+  "id": 1746569183,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-10-31",
+    "date:inception_upper": "2021-10-31",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-10-31",
+    "flysfo:actual_timestamp": 1635721200,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2021-10-31",
+    "flysfo:estimated_timestamp": 1635745200,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA5885",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-RNO",
+    "flysfo:scheduled_timestamp": 1635745200,
+    "flysfo:timestamp": 1635745200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-119.772167,39.505219",
+    "geom:latitude": 38.5616045,
+    "geom:longitude": -121.07155499999999,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102525535,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20211031-D-UAL-5885",
+    "sfomuseum:flight_number": [
+      "UAL5885",
+      "UA5885"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1635783792,
+    "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746569183
+      }
+    ],
+    "wof:id": 1746569183,
+    "wof:involves": [
+      102525535,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1635783792,
+    "wof:name": "UA5885 (SFO-RNO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -119.772167,
+    39.505219
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-119.772167,39.505219]],"type":"MultiPoint"}
+}
