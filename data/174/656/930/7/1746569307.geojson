@@ -2,10 +2,12 @@
   "id": 1746569307,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-31",
+    "date:cessation_upper": "2021-10-31",
     "date:inception_lower": "2021-10-31",
     "date:inception_upper": "2021-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-31",
+    "edtf:cessation": "2021-10-31T23:41:11Z",
+    "edtf:inception": "2021-10-31T21:30:00Z",
     "flysfo:actual_timestamp": 1635721200,
     "flysfo:airline": "WS",
     "flysfo:date": "2021-10-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
+    "icao:aircraft": "B737",
     "icao:airline": "WJA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "CFWSV",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7067677",
+      "swim:gufi": "KO70875100"
+    },
     "wof:country": "US",
     "wof:created": 1635783823,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -84,9 +97,10 @@
       102554947,
       102527513,
       1159285523,
-      1745882369
+      1745882369,
+      1159289869
     ],
-    "wof:lastmodified": 1635783823,
+    "wof:lastmodified": 1635783892,
     "wof:name": "WS1509 (SFO-YYC)",
     "wof:parent_id": 1745882369,
     "wof:placetype": "custom",

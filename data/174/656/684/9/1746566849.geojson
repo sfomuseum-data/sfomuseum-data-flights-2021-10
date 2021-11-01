@@ -2,10 +2,12 @@
   "id": 1746566849,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-31",
+    "date:cessation_upper": "2021-10-31",
     "date:inception_lower": "2021-10-31",
     "date:inception_upper": "2021-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-31",
+    "edtf:cessation": "2021-10-31T12:55:23-07:00",
+    "edtf:inception": "2021-10-31T23:25:00Z",
     "flysfo:actual_timestamp": 1635736800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618793,
     "lbl:longitude": -122.393245,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N830UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7078189",
+      "swim:gufi": "KL05600200"
+    },
     "wof:country": "US",
     "wof:created": 1635783182,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -84,9 +98,10 @@
       102527513,
       102536481,
       1159285413,
-      1745882435
+      1745882435,
+      1159289407
     ],
-    "wof:lastmodified": 1635783182,
+    "wof:lastmodified": 1635783890,
     "wof:name": "UA705 (PVR-SFO)",
     "wof:parent_id": 1745882435,
     "wof:placetype": "custom",

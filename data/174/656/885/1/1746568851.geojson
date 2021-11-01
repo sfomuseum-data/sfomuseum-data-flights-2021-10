@@ -2,10 +2,12 @@
   "id": 1746568851,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-31",
+    "date:cessation_upper": "2021-10-31",
     "date:inception_lower": "2021-10-31",
     "date:inception_upper": "2021-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-10-31",
+    "edtf:cessation": "2021-10-31T22:03:28Z",
+    "edtf:inception": "2021-10-31T18:16:00Z",
     "flysfo:actual_timestamp": 1635702360,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-10-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525035,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N451UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7051130",
+      "swim:gufi": "KO53240100"
+    },
     "wof:country": "US",
     "wof:created": 1635783704,
     "wof:geomhash": "36f645f844d4838b633d7fed3f06d4a5",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746568851,
     "wof:involves": [
+      1159292085,
       102525035,
       102527513,
       1159285413,
       1745882257
     ],
-    "wof:lastmodified": 1635783704,
+    "wof:lastmodified": 1635783900,
     "wof:name": "UA1830 (SFO-BNA)",
     "wof:parent_id": 1745882257,
     "wof:placetype": "custom",
