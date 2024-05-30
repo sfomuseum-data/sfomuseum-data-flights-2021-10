@@ -50,7 +50,11 @@
     "wof:country": "US",
     "wof:created": 1633364115,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746433069
+      }
+    ],
     "wof:id": 1746433069,
     "wof:involves": [
       1159289939,
@@ -58,10 +62,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1633364431,
+    "wof:lastmodified": 1717036182,
     "wof:name": "DL8926 (SFO-PDX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

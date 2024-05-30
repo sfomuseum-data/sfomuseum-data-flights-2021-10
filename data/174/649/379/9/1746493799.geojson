@@ -45,6 +45,7 @@
     "wof:geomhash": "9d5970fb497c224f692cb976d5929b90",
     "wof:hierarchy": [
       {
+        "custom_id": 1746493799,
         "flight_id": 1746493799
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159283813
     ],
-    "wof:lastmodified": 1634487489,
+    "wof:lastmodified": 1717036182,
     "wof:name": "QR3403 (SFO-GEG)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -86,10 +86,13 @@
       1159285391,
       1745882411
     ],
-    "wof:lastmodified": 1658884392,
+    "wof:lastmodified": 1717036181,
     "wof:name": "TK80 (SFO-IST)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -51,7 +51,11 @@
     "wof:country": "US",
     "wof:created": 1633364114,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746433067
+      }
+    ],
     "wof:id": 1746433067,
     "wof:involves": [
       1159289939,
@@ -59,10 +63,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1633364431,
+    "wof:lastmodified": 1717036182,
     "wof:name": "DL8885 (SFO-SAN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

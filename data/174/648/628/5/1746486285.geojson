@@ -52,6 +52,7 @@
     "wof:geomhash": "5effdcb6f19e0645c7e31e4e1e42645d",
     "wof:hierarchy": [
       {
+        "custom_id": 1746486285,
         "flight_id": 1746486285
       }
     ],
@@ -62,11 +63,13 @@
       1159283813,
       1159292085
     ],
-    "wof:lastmodified": 1634402129,
+    "wof:lastmodified": 1717036183,
     "wof:name": "AS9529 (GSO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

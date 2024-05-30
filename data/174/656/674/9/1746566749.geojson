@@ -40,6 +40,7 @@
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
     "wof:hierarchy": [
       {
+        "custom_id": 1746566749,
         "flight_id": 1746566749
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1635783156,
+    "wof:lastmodified": 1717036190,
     "wof:name": "UA549 (MSY-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

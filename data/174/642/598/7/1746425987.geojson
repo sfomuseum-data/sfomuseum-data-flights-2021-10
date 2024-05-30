@@ -52,7 +52,11 @@
     "wof:country": "US",
     "wof:created": 1633276869,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746425987
+      }
+    ],
     "wof:id": 1746425987,
     "wof:involves": [
       102527513,
@@ -60,10 +64,13 @@
       1159283849,
       1159289411
     ],
-    "wof:lastmodified": 1633277895,
+    "wof:lastmodified": 1717036182,
     "wof:name": "AA1175 (DFW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

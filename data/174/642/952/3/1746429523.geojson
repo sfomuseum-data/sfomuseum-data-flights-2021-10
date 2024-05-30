@@ -52,7 +52,11 @@
     "wof:country": "US",
     "wof:created": 1633277800,
     "wof:geomhash": "40a575d271046e5423fe379346e0e87e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746429523
+      }
+    ],
     "wof:id": 1746429523,
     "wof:involves": [
       102527513,
@@ -60,10 +64,13 @@
       1159289407,
       102530801
     ],
-    "wof:lastmodified": 1633277894,
+    "wof:lastmodified": 1717036184,
     "wof:name": "UA2739 (SFO-VCV)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

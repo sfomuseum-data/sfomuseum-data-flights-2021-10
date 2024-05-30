@@ -52,6 +52,7 @@
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
     "wof:hierarchy": [
       {
+        "custom_id": 1746483819,
         "flight_id": 1746483819
       }
     ],
@@ -62,11 +63,13 @@
       102533795,
       102527513
     ],
-    "wof:lastmodified": 1634315060,
+    "wof:lastmodified": 1717036181,
     "wof:name": "AS859 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

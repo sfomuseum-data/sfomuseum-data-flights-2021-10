@@ -48,6 +48,7 @@
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
     "wof:hierarchy": [
       {
+        "custom_id": 1746566441,
         "flight_id": 1746566441
       }
     ],
@@ -58,11 +59,13 @@
       102532771,
       1159285413
     ],
-    "wof:lastmodified": 1635783893,
+    "wof:lastmodified": 1717036191,
     "wof:name": "UA1130 (BUR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

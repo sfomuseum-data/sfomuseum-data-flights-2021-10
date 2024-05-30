@@ -86,10 +86,13 @@
       1159285391,
       1745882427
     ],
-    "wof:lastmodified": 1658884389,
+    "wof:lastmodified": 1717036183,
     "wof:name": "TK289 (IST-SFO)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

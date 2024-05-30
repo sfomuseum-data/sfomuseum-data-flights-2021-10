@@ -51,6 +51,7 @@
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
     "wof:hierarchy": [
       {
+        "custom_id": 1746509681,
         "flight_id": 1746509681
       }
     ],
@@ -61,11 +62,13 @@
       102557783,
       1159285413
     ],
-    "wof:lastmodified": 1634833400,
+    "wof:lastmodified": 1717036187,
     "wof:name": "UA870 (SYD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -94,10 +94,13 @@
       102527513,
       1159285015
     ],
-    "wof:lastmodified": 1651261084,
+    "wof:lastmodified": 1717036184,
     "wof:name": "PR105 (SFO-CEB)",
     "wof:parent_id": 1745882381,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

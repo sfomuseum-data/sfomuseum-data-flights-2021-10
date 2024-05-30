@@ -43,7 +43,11 @@
     "wof:country": "US",
     "wof:created": 1633277201,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746427195
+      }
+    ],
     "wof:id": 1746427195,
     "wof:involves": [
       102527513,
@@ -52,10 +56,13 @@
       -1,
       1159283849
     ],
-    "wof:lastmodified": 1633277201,
+    "wof:lastmodified": 1717036183,
     "wof:name": "QR2814 (DFW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

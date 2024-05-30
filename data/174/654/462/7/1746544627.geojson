@@ -48,6 +48,7 @@
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
     "wof:hierarchy": [
       {
+        "custom_id": 1746544627,
         "flight_id": 1746544627
       }
     ],
@@ -58,11 +59,13 @@
       102532251,
       1159285227
     ],
-    "wof:lastmodified": 1635438154,
+    "wof:lastmodified": 1717036189,
     "wof:name": "SY8723 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

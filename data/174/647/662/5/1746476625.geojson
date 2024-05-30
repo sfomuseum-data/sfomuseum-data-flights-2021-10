@@ -53,6 +53,7 @@
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
     "wof:hierarchy": [
       {
+        "custom_id": 1746476625,
         "flight_id": 1746476625
       }
     ],
@@ -63,11 +64,13 @@
       102536441,
       1159283813
     ],
-    "wof:lastmodified": 1634228483,
+    "wof:lastmodified": 1717036184,
     "wof:name": "AS1099 (SJD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

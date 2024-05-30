@@ -51,7 +51,11 @@
     "wof:country": "US",
     "wof:created": 1633191385,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746425221
+      }
+    ],
     "wof:id": 1746425221,
     "wof:involves": [
       1159289871,
@@ -59,10 +63,13 @@
       102527513,
       1159285227
     ],
-    "wof:lastmodified": 1633191579,
+    "wof:lastmodified": 1717036181,
     "wof:name": "SY396 (SFO-MSP)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

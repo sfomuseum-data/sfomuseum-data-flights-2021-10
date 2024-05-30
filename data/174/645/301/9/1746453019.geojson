@@ -49,6 +49,7 @@
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
     "wof:hierarchy": [
       {
+        "custom_id": 1746453019,
         "flight_id": 1746453019
       }
     ],
@@ -59,11 +60,13 @@
       1159283917,
       1377564293
     ],
-    "wof:lastmodified": 1633796525,
+    "wof:lastmodified": 1717036182,
     "wof:name": "OZ212 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

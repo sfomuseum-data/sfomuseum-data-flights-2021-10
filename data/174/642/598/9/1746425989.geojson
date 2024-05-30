@@ -52,7 +52,11 @@
     "wof:country": "US",
     "wof:created": 1633276869,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746425989
+      }
+    ],
     "wof:id": 1746425989,
     "wof:involves": [
       1159283849,
@@ -60,10 +64,13 @@
       102527513,
       102531023
     ],
-    "wof:lastmodified": 1633277883,
+    "wof:lastmodified": 1717036182,
     "wof:name": "AA2035 (MIA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

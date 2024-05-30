@@ -45,6 +45,7 @@
     "wof:geomhash": "5bc73b85d9408e1579ad3f82b41c3e68",
     "wof:hierarchy": [
       {
+        "custom_id": 1746491835,
         "flight_id": 1746491835
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159285749
     ],
-    "wof:lastmodified": 1634486964,
+    "wof:lastmodified": 1717036180,
     "wof:name": "TK9406 (SAL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

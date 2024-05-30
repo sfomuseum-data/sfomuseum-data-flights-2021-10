@@ -38,7 +38,11 @@
     "wof:country": "US",
     "wof:created": 1633191264,
     "wof:geomhash": "5cb31017412a00ced54cc35c2a74371e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746424747
+      }
+    ],
     "wof:id": 1746424747,
     "wof:involves": [
       102530559,
@@ -46,10 +50,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1633191264,
+    "wof:lastmodified": 1717036181,
     "wof:name": "DL412 (SFO-SMF)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -48,6 +48,7 @@
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
     "wof:hierarchy": [
       {
+        "custom_id": 1746540793,
         "flight_id": 1746540793
       }
     ],
@@ -58,11 +59,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1635351767,
+    "wof:lastmodified": 1717036187,
     "wof:name": "DL8840 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

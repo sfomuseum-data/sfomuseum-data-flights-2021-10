@@ -83,10 +83,13 @@
       1745882281,
       1159285413
     ],
-    "wof:lastmodified": 1653097060,
+    "wof:lastmodified": 1717036183,
     "wof:name": "AC4058 (SFO-SBA)",
     "wof:parent_id": 1746415347,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -51,6 +51,7 @@
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
     "wof:hierarchy": [
       {
+        "custom_id": 1746472685,
         "flight_id": 1746472685
       }
     ],
@@ -61,11 +62,13 @@
       1159284563,
       1159293215
     ],
-    "wof:lastmodified": 1634142231,
+    "wof:lastmodified": 1717036181,
     "wof:name": "JL58 (NRT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

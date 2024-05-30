@@ -53,6 +53,7 @@
     "wof:geomhash": "15b112f2955ad354f72c3865722bb247",
     "wof:hierarchy": [
       {
+        "custom_id": 1746506797,
         "flight_id": 1746506797
       }
     ],
@@ -63,11 +64,13 @@
       102527513,
       1159285227
     ],
-    "wof:lastmodified": 1634746888,
+    "wof:lastmodified": 1717036185,
     "wof:name": "SY3006 (SFO-AFW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

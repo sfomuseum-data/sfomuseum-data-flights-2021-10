@@ -53,6 +53,7 @@
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
     "wof:hierarchy": [
       {
+        "custom_id": 1746458103,
         "flight_id": 1746458103
       }
     ],
@@ -63,11 +64,13 @@
       1159283875,
       1159293215
     ],
-    "wof:lastmodified": 1633882834,
+    "wof:lastmodified": 1717036186,
     "wof:name": "NH8 (NRT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -66,6 +66,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746426673,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
@@ -79,6 +80,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746426673,
         "region_id": 85688637,
         "venue_id": 1745882101,
         "wing_id": 1745882085
@@ -92,10 +94,13 @@
       1159283813,
       1745882101
     ],
-    "wof:lastmodified": 1633277885,
+    "wof:lastmodified": 1717036182,
     "wof:name": "AS710 (OGG-SFO)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

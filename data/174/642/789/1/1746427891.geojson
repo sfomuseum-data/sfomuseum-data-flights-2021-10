@@ -64,6 +64,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746427891,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
@@ -77,6 +78,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746427891,
         "region_id": 85688637,
         "venue_id": 1745882215,
         "wing_id": 1745882137
@@ -90,10 +92,13 @@
       1745882215,
       1159284261
     ],
-    "wof:lastmodified": 1633277383,
+    "wof:lastmodified": 1717036183,
     "wof:name": "WS6879 (SEA-SFO)",
     "wof:parent_id": 1745882215,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

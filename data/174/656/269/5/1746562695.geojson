@@ -52,6 +52,7 @@
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
     "wof:hierarchy": [
       {
+        "custom_id": 1746562695,
         "flight_id": 1746562695
       }
     ],
@@ -62,11 +63,13 @@
       1528104575,
       102555091
     ],
-    "wof:lastmodified": 1635697365,
+    "wof:lastmodified": 1717036189,
     "wof:name": "AC740 (SFO-YYZ)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

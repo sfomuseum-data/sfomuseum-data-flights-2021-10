@@ -77,10 +77,13 @@
       1159285413,
       1745882281
     ],
-    "wof:lastmodified": 1653097059,
+    "wof:lastmodified": 1717036181,
     "wof:name": "UA5394 (SFO-RNO)",
     "wof:parent_id": 1746415405,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

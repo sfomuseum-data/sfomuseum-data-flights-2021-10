@@ -43,7 +43,11 @@
     "wof:country": "US",
     "wof:created": 1633190589,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746422095
+      }
+    ],
     "wof:id": 1746422095,
     "wof:involves": [
       102527513,
@@ -52,10 +56,13 @@
       -1,
       1159285413
     ],
-    "wof:lastmodified": 1633190589,
+    "wof:lastmodified": 1717036188,
     "wof:name": "NH7012 (NRT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -48,6 +48,7 @@
     "wof:geomhash": "5e2e6299deb3a59dda4e65fa5b8c6ddb",
     "wof:hierarchy": [
       {
+        "custom_id": 1746506917,
         "flight_id": 1746506917
       }
     ],
@@ -58,11 +59,13 @@
       102527513,
       1159285255
     ],
-    "wof:lastmodified": 1634746888,
+    "wof:lastmodified": 1717036185,
     "wof:name": "TA5565 (SFO-SAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

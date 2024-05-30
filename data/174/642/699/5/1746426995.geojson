@@ -48,7 +48,11 @@
     "wof:country": "US",
     "wof:created": 1633277149,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746426995
+      }
+    ],
     "wof:id": 1746426995,
     "wof:involves": [
       1377564295,
@@ -56,10 +60,13 @@
       102531189,
       1159284401
     ],
-    "wof:lastmodified": 1633277886,
+    "wof:lastmodified": 1717036182,
     "wof:name": "F9667 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -51,7 +51,11 @@
     "wof:country": "US",
     "wof:created": 1633191384,
     "wof:geomhash": "15b112f2955ad354f72c3865722bb247",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746425219
+      }
+    ],
     "wof:id": 1746425219,
     "wof:involves": [
       102527513,
@@ -59,10 +63,13 @@
       1159289871,
       102528591
     ],
-    "wof:lastmodified": 1633191568,
+    "wof:lastmodified": 1717036181,
     "wof:name": "SY3006 (SFO-AFW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

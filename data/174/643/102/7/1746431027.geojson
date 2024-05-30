@@ -51,7 +51,11 @@
     "wof:country": "US",
     "wof:created": 1633363584,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746431027
+      }
+    ],
     "wof:id": 1746431027,
     "wof:involves": [
       1377564295,
@@ -59,10 +63,13 @@
       102527209,
       1159284401
     ],
-    "wof:lastmodified": 1633364430,
+    "wof:lastmodified": 1717036180,
     "wof:name": "F92079 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

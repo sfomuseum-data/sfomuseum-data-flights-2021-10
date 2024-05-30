@@ -54,6 +54,7 @@
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
     "wof:hierarchy": [
       {
+        "custom_id": 1746464439,
         "flight_id": 1746464439
       }
     ],
@@ -64,11 +65,13 @@
       102554947,
       1159285523
     ],
-    "wof:lastmodified": 1633969362,
+    "wof:lastmodified": 1717036182,
     "wof:name": "WS1508 (YYC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []

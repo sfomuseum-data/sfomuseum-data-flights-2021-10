@@ -53,6 +53,7 @@
     "wof:geomhash": "eba9741d16611c9af3d962416d546de7",
     "wof:hierarchy": [
       {
+        "custom_id": 1746454819,
         "flight_id": 1746454819
       }
     ],
@@ -63,11 +64,13 @@
       1159293215,
       102527513
     ],
-    "wof:lastmodified": 1633796514,
+    "wof:lastmodified": 1717036183,
     "wof:name": "UA195 (MUC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-10",
     "wof:superseded_by": [],
     "wof:supersedes": []
